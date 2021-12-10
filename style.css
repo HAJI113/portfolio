@@ -1,0 +1,312 @@
+*{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+}
+.container{
+          background-color: azure;
+
+}
+.header{
+          display: flex;
+          justify-content: space-between;
+          padding: 10px;
+          align-items: center;
+          background-color: whitesmoke;
+         
+}
+.links ul li{
+          display: inline-block;
+          list-style: none;
+          margin: 0 5px;
+}
+.links ul li a{
+          color: rgba(0, 0, 0, 0.685);
+          text-decoration: none;
+          font-size: 18px;
+          font-weight: 500;
+          padding: 10px;
+}
+.nav-bar{
+          display: none;
+}
+.closeNav{
+          display: none;
+}
+.content{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+}
+.left-side{
+          padding:5px;
+          box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.685);
+          border:10px solid royalblue ;
+          width: 50%;
+}
+.right-side{
+          line-height: 40px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+
+}
+.right-side h2{
+          padding:10px;
+          color: black;
+          font-weight: bold;
+          font-size: 32px;
+
+}
+.btn-primary{
+          padding: 10px;
+          font-size: 20px;
+          font-weight: 600;
+          border: none;
+          border-radius: 5px;
+          color: white;
+          background-color: royalblue;
+}
+.btn-primary:hover{
+          background-color: salmon;
+}
+.para{
+         padding-left: 100px;
+         padding-right:100px ;
+         font-size: 20px;
+}
+.what{
+          display:flex;
+          justify-content: space-around;
+          align-items: center;
+          padding: 20px;
+}
+.cards{
+          width:25%;
+          background-color: white;
+          box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.685);
+          padding: 20px;
+          height: 250px;
+          font-size: 20px;
+}
+.card-h3{
+          padding-top:20px;
+          padding-bottom: 20px;
+}
+.more{
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+
+}
+.more a{
+          text-decoration: none;
+          color: black;
+          letter-spacing: 5px;
+}
+.about{
+          display: flex;
+          justify-content: space-around;
+          padding: 20px;
+          
+}
+.me{
+          width: 30%;
+
+}
+.we{
+          padding: 40px;
+}
+.we ul li{
+          list-style: none;
+          line-height: 40px;
+          font-size: 20px;
+}
+.footer{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          text-align: center;
+          background-color: whitesmoke;
+}
+.social ul li{
+          list-style: none;
+          display: inline-block;
+          margin: 0 5px;
+}
+.social ul li a{
+          text-decoration: none;
+          color: royalblue;
+          font-size: 16px;
+          font-weight: 500;
+}
+.twitter .fa{
+          padding: 20px;
+          font-size: 20px;
+          color: black;
+}
+.coffee{
+          position: fixed;
+          right: 20px;
+          bottom: 20px;
+          background-color: yellow;
+          border-radius: 100%;
+}
+.close{
+          color: tomato;
+          font-size: 40px;
+          position: absolute;
+          font-weight: bold;
+          right: 20px;
+          padding: 10px;
+          top: 0px;
+}
+.pop{
+          
+          background-color:rgba(240, 245, 255, 0.829);
+          box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.685);
+          padding: 20px;
+          height: 90vh;
+          position: fixed;
+          width: 100%;
+          display: none;
+          justify-content: center;
+          flex-direction: column;
+          line-height: 40px;
+}
+.card-pop{
+          color: rgb(8, 2, 8);
+          font-size: 20px;
+          font-weight: 400;
+         
+          
+}
+.card-pop p, .card-pop i{
+          color: tomato;
+          font-weight: bold;
+          padding: 20px;
+          font-size: 20px;
+          
+}
+.card-pop i{
+          padding: 20px;
+          
+}
+.icons-pop{
+          text-decoration: none;
+          color: tomato;
+          font-size: 20px;
+          letter-spacing: 2px;
+          margin-left: 10px;
+}
+.resume{
+          background-color: rosybrown;
+          padding: 10px;
+          border-style: none;
+          color: white;
+          font-size: 20px;
+          margin-top: 20px;
+          cursor: pointer;
+          border-radius: 5px;
+}
+.resume:hover{
+          background-color: salmon;
+          padding: 15px;
+}
+@media only screen and (max-width: 500px){
+          .nav-bar{
+                    display: block;
+                    font-size: 30px;
+                    font-weight: 600;
+          }
+          .links{
+                     display: none;
+                     background-color: azure;
+                     padding: 0px;
+                     position: fixed;
+                     left: 0px;
+                     bottom: 0px;
+                     height: 100vh;
+                     width: 100%;
+                     padding-top: 40px;
+          }
+          .links ul li{
+                    display: block;
+                    line-height: 40px;
+                    list-style: none;
+                    margin: 0 5px;
+          }
+          .closeNav{
+                    display: block;
+                    color: black;
+                    font-weight: 600;
+                    position: absolute;
+                    right: 20px;
+                    cursor: pointer;
+                    top: -10px;
+                    font-size: 50px;
+          }
+          .content{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+          }
+          .left-side{
+                    padding:20px;
+                    box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.685);
+                    border:10px solid royalblue ;
+                    width: 100%;
+          }
+          .right-side{
+                    line-height: 40px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+          
+          }
+          .para{
+                    padding-left: 10px;
+                    padding-right:10px ;
+           }
+           .what{
+                    display:flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    padding: 20px;
+          }
+          .cards{
+                    width:100%;
+                    background-color: white;
+                    box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.685);
+                    padding: 20px;
+                    font-size: 20px;
+                    margin-top: 20px;
+          }
+          .about{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    padding: 20px;
+                   
+                    
+                    
+          }
+          .me{
+                    width: 100%;
+                    
+          
+          }
+          .we{
+                    padding: 10px;
+          }
+          .we ul li{
+                    list-style: none;
+                    line-height: 40px;
+                    font-size: 16px;
+          }
+          .last-foot{
+                    font-size: 18px;
+          }
+}

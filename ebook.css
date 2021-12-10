@@ -1,0 +1,96 @@
+.card-container{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+
+}
+.card{
+          width: 30%;
+          margin-top: 20px;
+          padding: 20px;
+          background-color: azure;
+          box-shadow: 0 0 0.4rem rgba(0,0,0,0.15);
+
+}
+.down{
+          background-color: rgb(20, 241, 13);
+          padding: 10px;
+          width: 100%;
+          margin-top: 10px;
+          border-style: none;
+          color: white;
+          font-size: 20px;
+          font-weight: bold;
+          
+}
+
+.btn-talk{
+          padding: 10px;
+          color: white;
+          background-color: royalblue;
+          border-style: none;
+          border-radius: 5px;
+          margin-top: 20px;
+}
+.help{
+          background-color: whitesmoke;
+          box-shadow: 0 0 0.4rem rgba(0,0,0,0.15);
+          width: 50%;
+          margin-left: 20%;
+          padding: 20px;
+          margin-top:5px;
+          margin-bottom: 15px;
+          font-size: 20px;
+          height: 60vh;
+  }
+form{
+          line-height: 40px;
+          margin: 5px;
+
+}
+input{
+          display: block;
+          width: 100%;
+          padding: 10px;
+          
+}
+@media only screen and (max-width: 500px){
+          .card-container{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+          
+          }
+          .card{
+                    width: 100%;
+                    padding: 20px;
+                    background-color: azure;
+                    box-shadow: 0 0 0.4rem rgba(0,0,0,0.15);
+          
+          }
+          .down{
+                    background-color: rgb(20, 241, 13);
+                    padding: 10px;
+                    width: 100%;
+                    margin-top: 10px;
+                    border-style: none;
+                    color: white;
+                    font-size: 20px;
+                    font-weight: bold;
+                    
+          }   
+          .help{
+                    background-color: whitesmoke;
+                    box-shadow: 0 0 0.4rem rgba(0,0,0,0.15);
+                    width: 100%;
+                     margin: 0px;
+                     padding: 10px;
+
+            }
+          form{
+                    line-height: 40px;
+                    margin: 5px;
+          
+          }
+}
